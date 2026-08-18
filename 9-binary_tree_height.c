@@ -4,6 +4,8 @@
 /**
  * binary_tree_height - measure height of binary tree
  * @tree: pointer to root node of tree to measure height
+ *
+ * Return: left if more levels, right is more levels
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
